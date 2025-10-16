@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 
-# IAM role for Lambda execution.
+# IAM role for Lambda execution.l
 resource "aws_iam_policy" "iam_policy_for_lambda" {
   name = "aws_iam_policy_for_terraform"
   path = "/"
